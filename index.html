@@ -5,31 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
+      <!--PERSON INFO -->
       <div class="person">
         <div class="person-info">
-          <div class="person-info__text--name"><span class="f-200">Hi,</span> <span class="f-400">Zara</span></div>
-          <div class="person-info__text--targets f-100">You have <span class="f-500 underline">5</span> targets</div>
+          <div class="person-info__text--name">
+            <span class="f-300">Hi,</span> <span class="f-700">Zara</span>
+          </div>
+          <div class="person-info__text--targets f-100">
+            You have <span class="f-700 underline">5</span> targets
+          </div>
         </div>
         <div class="person-icon">
           <div class="person-icon__alarm">
             <div class="notification-alert"></div>
-            <img src="./images/icons/notification.svg" alt="notification">
+            <img src="./images/icons/notification.svg" alt="notification" />
           </div>
           <div class="person-icon__avatar"></div>
         </div>
       </div>
-
+      <!--TARGET CARD -->
       <div class="targets">
         <div class="targets__title f-500">Your Targets</div>
-        <div class="targets__next next-btn"><img src="./images/icons/chevron-right-white.png" alt=""></div>
+        <div class="targets__next next-btn">
+          <img
+            src="./images/icons/chevron-right-white.png"
+            alt="chevron-right"
+          />
+        </div>
+      </div>
+
+      <div class="target-info-card">
+        <div class="target-info-card__row">
+          <div class="target-info-card__topic-icon">
+            <span class="f-500">UX</span>
+          </div>
+
+          <div class="target-info-card__short-desc">
+            <div class="card-title f-500">Learn UX Design</div>
+            <div class="card-time-left f-100">3 Month left</div>
+          </div>
+
+          <div class="card-three-dots">...</div>
+        </div>
+        <hr class="line" />
+        <div class="target-card-progress">
+
+          <div class="target-card-date">
+            <div class="calender"><img src="./images/icons/schedule-gray.png" alt=""></div>
+            <div class="date f-300">01 november 2020</div>
+            <div class="prio-btn f-700">priority</div>
+          </div>
+
+          <div class="target-card-progress-text">
+            <div class="progress-text f-100">progress</div>
+            <div class="progress-percentage f-100">80%</div>
+          </div>
+
+          <div class="progress">
+            <span></span>
+          </div>
+
+        </div>
       </div>
     </div>
   </body>
