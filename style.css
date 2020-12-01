@@ -32,6 +32,8 @@ body{
 }
 
 .container{
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 15px;
   position: absolute;
   top: 50%;
@@ -39,7 +41,6 @@ body{
   transform: translate(-50%,-50%);
   width: 360px;
   height: auto;
-    padding-bottom: 30px;
   border-radius: 30px;
   background-color: rgba(255, 2555, 255, 0.4);
   display: flex;
@@ -103,7 +104,6 @@ body{
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: white;
   align-self: center;
   background: url('./images/img/profile.png');
   background-size: cover;
@@ -125,6 +125,7 @@ body{
   margin-right: 15px;
   border-radius: 10px;
   color: rgba(255, 2555, 255, 0.4);
+  cursor: pointer;
 }
 
 .targets__next > img {
@@ -193,6 +194,7 @@ body{
   margin-top: -10px;
   margin-left: -15px;
   color: #3D426B;
+  cursor: pointer;
 }
 
 .line{
@@ -364,6 +366,7 @@ body{
 
   .chevron > img {
     height: 7px;
+    cursor: pointer;
   }
 
   .single-task-container{
@@ -468,5 +471,48 @@ input[type=checkbox]:checked + span  .task-name  {
   border-radius: 50%;
   text-align: center;
   color: #DF3F52;
+  cursor: pointer;
+}
 
+.menu{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-menu{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.menu-home > img{
+  height: 20px;
+}
+
+.menu-calender > img {
+  height: 20px;
+}
+
+.menu-stats > img{
+  height: 20px;
+}
+
+.menu-settings >  img {
+  height: 20px;
+}
+
+.menu-add{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #09CEDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 40px;
+  box-shadow: 0 7px 30px -10px rgba(09,206,219,0.5);
 }
