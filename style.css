@@ -441,3 +441,32 @@ input[type=checkbox]:checked + span  .task-name  {
   font-size: 10px;
   color: #B3ADB6;
 }
+
+.add-sub-task{
+  width: 85%;
+  height: 40px;
+  margin: auto;
+  border: 1px dashed #C2C3C8;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sub-task-add{
+  color: #B3ADB6;
+}
+
+.sub-task-plus{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #DF3F52;
+  border-radius: 50%;
+  text-align: center;
+  color: #DF3F52;
+
+}
